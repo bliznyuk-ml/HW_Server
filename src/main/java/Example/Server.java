@@ -1,4 +1,4 @@
-package Task_2;
+package Example;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
