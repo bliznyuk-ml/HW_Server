@@ -19,12 +19,13 @@ public class Client1Message {
                 );
         System.out.println("Connection to server");
         client1.connect(serverSocket);
-        System.out.println("Connected successfully");
+        System.out.println("Connected client 1:" + client1.getRemoteSocketAddress().toString() + "successfully");
         try (var in = client1.getInputStream();
              var reader = new BufferedReader(new InputStreamReader(in));
              var out = client1.getOutputStream();
              var print = new PrintStream(out, true)) {
             String line;
+            int id = 1;
             while (true) {
                 System.out.print(">>> ");
                 line = scanner.nextLine();

@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2205c69d-6b3b-4257-bc7f-828d8b5b599d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alice.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Example/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Example/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task_1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task_1/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task_2/Client1Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task_2/Client2Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task_2/ServerMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task_2_Sonet/ClientSonet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task_2_Sonet/ServerSonet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task_2_Sonet/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Task_1/AppTest.java" afterDir="false" />
+    <list default="true" id="2205c69d-6b3b-4257-bc7f-828d8b5b599d" name="Changes" comment="Commit 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task_2/ServerManyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task_2/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task_2/Client1Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task_2/Client1Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task_2/Client2Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task_2/Client2Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task_2/ServerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task_2/ServerMessage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +30,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2NQTXLu8BYnEZFtMioHxyzj3O5m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,36 +38,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Bliznyuk/IdeaProjects/ITStepHomeWork/Lesson_66_Server/CW_Server/HW_Server&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Bliznyuk/IdeaProjects/ITStepHomeWork/Lesson_66_Server/network-demo/network-demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Bliznyuk\IdeaProjects\ITStepHomeWork\Lesson_66_Server\CW_Server\HW_Server" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientSonet">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_2_Sonet.Client" />
+  <component name="RunManager" selected="Application.ServerManyThread">
+    <configuration name="Client1Message" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task_2.Client1Message" />
       <module name="HW_Server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task_2_Sonet.*" />
+          <option name="PATTERN" value="Task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientSonet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_2_Sonet.ClientSonet" />
+    <configuration name="ServerManyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task_2.ServerManyThread" />
       <module name="HW_Server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task_2_Sonet.*" />
+          <option name="PATTERN" value="Task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerSonet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_2_Sonet.ServerSonet" />
+    <configuration name="ServerMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task_2.ServerMessage" />
       <module name="HW_Server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task_2_Sonet.*" />
+          <option name="PATTERN" value="Task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +117,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_2_Sonet.Test" />
+      <option name="MAIN_CLASS_NAME" value="Task_2.Test" />
       <module name="HW_Server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task_2_Sonet.*" />
+          <option name="PATTERN" value="Task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientSonet" />
-        <item itemvalue="Application.ServerSonet" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.ServerManyThread" />
+        <item itemvalue="Application.Client1Message" />
         <item itemvalue="Application.Client2Message" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ServerMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -167,8 +149,20 @@
       <updated>1679595352167</updated>
       <workItem from="1679595354722" duration="8435000" />
       <workItem from="1679673071895" duration="3018000" />
-      <workItem from="1679696416304" duration="25920000" />
+      <workItem from="1679696416304" duration="35089000" />
+      <workItem from="1680027291580" duration="18783000" />
+      <workItem from="1680189001704" duration="515000" />
+      <workItem from="1680189750886" duration="81000" />
+      <workItem from="1680189884791" duration="6830000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit 1">
+      <created>1679830516486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679830516486</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,5 +170,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 1" />
   </component>
 </project>

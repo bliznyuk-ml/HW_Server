@@ -1,5 +1,7 @@
 package Task_2;
 
+/*Клиент посылает через сервер сообщение другому клиенту*/
+
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;

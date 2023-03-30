@@ -17,7 +17,7 @@ public class Client2Message {
                 );
         System.out.println("Connection to server");
         client2.connect(serverSocket);
-        System.out.println("Connected successfully");
+        System.out.println("Connected client 2:" + client2.getRemoteSocketAddress().toString() + "successfully");
         try (var in = client2.getInputStream();
              var reader = new BufferedReader(new InputStreamReader(in));
              var out = client2.getOutputStream();
