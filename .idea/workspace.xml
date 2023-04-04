@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2205c69d-6b3b-4257-bc7f-828d8b5b599d" name="Changes" comment="Commit 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task_2/ServerManyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task_2/Test.java" afterDir="false" />
+    <list default="true" id="2205c69d-6b3b-4257-bc7f-828d8b5b599d" name="Changes" comment="Commit 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Task_2/Client1Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task_2/Client1Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Task_2/Client2Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task_2/Client2Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task_2/ServerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task_2/ServerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task_2/ServerManyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task_2/ServerManyThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Bliznyuk/IdeaProjects/ITStepHomeWork/Lesson_66_Server/network-demo/network-demo",
+    "last_opened_file_path": "C:/Users/Bliznyuk/IdeaProjects/ITStepHomeWork/Lesson_70_Servlet_Обробка запитів/handle-post-request",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,7 +61,7 @@
       <recent name="C:\Users\Bliznyuk\IdeaProjects\ITStepHomeWork\Lesson_66_Server\CW_Server\HW_Server" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServerManyThread">
+  <component name="RunManager" selected="Application.Client2Message">
     <configuration name="Client1Message" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task_2.Client1Message" />
       <module name="HW_Server" />
@@ -131,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerManyThread" />
-        <item itemvalue="Application.Client1Message" />
         <item itemvalue="Application.Client2Message" />
+        <item itemvalue="Application.Client1Message" />
+        <item itemvalue="Application.ServerManyThread" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ServerMessage" />
       </list>
@@ -153,7 +151,8 @@
       <workItem from="1680027291580" duration="18783000" />
       <workItem from="1680189001704" duration="515000" />
       <workItem from="1680189750886" duration="81000" />
-      <workItem from="1680189884791" duration="6830000" />
+      <workItem from="1680189884791" duration="13398000" />
+      <workItem from="1680211228232" duration="12526000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1">
       <created>1679830516486</created>
@@ -162,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679830516486</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit 2">
+      <created>1680203074402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680203074402</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit 2">
+      <created>1680203107029</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680203107029</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +184,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 1" />
+    <MESSAGE value="Commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 2" />
   </component>
 </project>

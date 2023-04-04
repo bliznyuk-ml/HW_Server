@@ -13,7 +13,7 @@ public class Client2Message {
         SocketAddress serverSocket =
                 new InetSocketAddress(
                         InetAddress.getByName("localhost"),
-                        ServerMessage.PORT1
+                        ServerManyThread.PORT
                 );
         System.out.println("Connection to server");
         client2.connect(serverSocket);

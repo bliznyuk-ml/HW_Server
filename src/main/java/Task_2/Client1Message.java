@@ -7,15 +7,13 @@ import java.net.*;
 import java.util.Scanner;
 
 public class Client1Message {
-
-
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         Socket client1 = new Socket();
         SocketAddress serverSocket =
                 new InetSocketAddress(
                         InetAddress.getByName("localhost"),
-                        ServerMessage.PORT1
+                        ServerManyThread.PORT
                 );
         System.out.println("Connection to server");
         client1.connect(serverSocket);
@@ -25,7 +23,6 @@ public class Client1Message {
              var out = client1.getOutputStream();
              var print = new PrintStream(out, true)) {
             String line;
-            int id = 1;
             while (true) {
                 System.out.print(">>> ");
                 line = scanner.nextLine();
